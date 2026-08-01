@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FunUpdates - Automated Video Distribution</title>
+    <!-- Favicon link pointing to the same icon -->
+    <link rel="icon" type="image/png" href="icon.png">
     <style>
         :root {
             --primary: #fe2c55;
@@ -43,7 +45,12 @@
             text-decoration: none;
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 10px;
+        }
+        .logo img {
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
         }
         nav a {
             text-decoration: none;
@@ -188,7 +195,9 @@
     <header>
         <div class="nav-container">
             <a href="#" class="logo">
-                <span>⚡</span> FunUpdates
+                <!-- Using your official app icon -->
+                <img src="icon.png" alt="FunUpdates Logo">
+                <span>FunUpdates</span>
             </a>
             <nav>
                 <a href="#features">Features</a>
